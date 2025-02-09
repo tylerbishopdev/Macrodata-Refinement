@@ -1,10 +1,10 @@
 name = "your-project-name"
 type = "javascript"
-account_id = "your-account-id"
+account_id = "bishopbjj"
 workers_dev = true
 compatibility_date = "2023-10-01"
 
 [build]
-command = "npm run build"
+command = "npx wrangler build"
 [build.upload]
 main = "dist/index.js" # Ensure this points to your entry-point file
